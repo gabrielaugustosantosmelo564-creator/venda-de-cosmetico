@@ -1,8 +1,13 @@
-a{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -10,24 +15,20 @@ ul{
     display: flex;
     align-items: center;
     gap: 15px;
-    justify-content: space-between; 
-    background-color: orange; 
-
+    justify-content: space-between;
+    background-color: orange;
+    padding: 16px;
 }
-
 
 .cabecalho nav li a {
     display: flex;
-    font-weight:bold;
+    font-weight: bold;
     color: black;
     font-size: 20px;
     flex-direction: column;
-  
 }
 
-
-
-.cabecalho .menu{
+.menu1 {
     display: flex;
-    flex-direction:column;
+    padding: 16px;
 }
